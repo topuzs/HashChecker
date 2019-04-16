@@ -72,8 +72,7 @@ namespace HashChecker
                 }
             }
 
-            MessageBox.Show(hashsum.ToString(), algorithm + " Checksum", MessageBoxButtons.OK);
-            
+            MessageBox.Show(hashsum.ToString(), algorithm + " Checksum", MessageBoxButtons.OK);            
         }
     }
 }
