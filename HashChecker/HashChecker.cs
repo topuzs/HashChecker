@@ -31,16 +31,14 @@ namespace HashChecker
             //  Create a 'count lines' item.
             var itemMD5Checker = new ToolStripMenuItem
             {
-                Text = "Calculate MD5Sum", 
-
+                Text = "Calculate MD5Sum"
             };
 
             var itemSHA256Checker = new ToolStripMenuItem
             {
                 Text = "Calculate SHA256Sum"
             };
-
-
+            
             //  When we click, we'll call the 'CountLines' function.
             itemMD5Checker.Click += (sender, args) => CalculateHashSum("MD5");
             itemSHA256Checker.Click += (sender, args) => CalculateHashSum("SHA256");
